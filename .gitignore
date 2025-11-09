@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Data & temp files
+*.npy
+*.npz
+*.zip
+*.csv.zip
+*.rar
+*.tar
+*.gz
+
+# System files
+.DS_Store
+Thumbs.db

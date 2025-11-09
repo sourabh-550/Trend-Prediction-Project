@@ -15,7 +15,8 @@ env/
 *.npy
 *.npz
 *.zip
-*.csv.zip
+*.csv
+*.zip
 *.rar
 *.tar
 *.gz

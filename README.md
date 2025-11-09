@@ -19,6 +19,4 @@ A machine learning web app that predicts which YouTube videos are most likely to
 - **Feature Engineering:** TF-IDF Vectorizer, Feature Scaling
 - **Dashboard:** Streamlit
 
----
 
-## 🧩 Project Structure

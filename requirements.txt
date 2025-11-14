@@ -10,3 +10,4 @@ wordcloud
 requests
 beautifulsoup4
 plotly
+xgboost

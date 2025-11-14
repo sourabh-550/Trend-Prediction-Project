@@ -26,10 +26,11 @@ def safe_read_csv(path):
 
 @st.cache_data
 def load_artifacts():
-    model = load_pickle("models/trend_model.pkl")
-    tfidf = load_pickle("models/tfidf_vectorizer.pkl")
-    scaler = load_pickle("models/scaler.pkl")
+    model = load_pickle("../models/trend_model.pkl")
+    tfidf = load_pickle("../models/tfidf_vectorizer.pkl")
+    scaler = load_pickle("../models/scaler.pkl")
     return model, tfidf, scaler
+
 
 STOPWORDS = set("""
 a an the and or but if while of to for in on at from by with as is are was were be have has had not no you your we they it this that these those our

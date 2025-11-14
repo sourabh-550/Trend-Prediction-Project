@@ -14,8 +14,11 @@ st.set_page_config(page_title="YouTube Trend Predictor", page_icon="📈", layou
 sns.set_theme(style="whitegrid")
 
 # ---------- HELPERS ----------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def load_pickle(path):
-    with open(path, "rb") as f:
+    full_path = os.path.join(BASE_DIR, path)
+    with open(full_path, "rb") as f:
         return pickle.load(f)
 
 def safe_read_csv(path):

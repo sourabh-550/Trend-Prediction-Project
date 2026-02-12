@@ -180,15 +180,6 @@ Features:
 
 ---
 
-## 🔒 Production Considerations
-
-- API keys stored in environment variables
-- Caching to reduce API rate limits
-- Periodic model retraining (trend drift handling)
-- Error handling for API failures
-
----
-
 ## ⚠️ Limitations
 
 - Dependent on available engagement metrics
@@ -218,12 +209,5 @@ Features:
 
 ---
 
-## 📎 How to Run
-
-1. Clone the repository
-2. Install dependencies
-3. Add YouTube API key to environment variables
-4. Run:
-   streamlit run app.py
 
 ⭐ If you found this project interesting, feel free to connect or discuss improvements.

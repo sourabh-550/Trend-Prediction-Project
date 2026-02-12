@@ -226,12 +226,4 @@ Features:
 4. Run:
    streamlit run app.py
 
----
-
-## 👨‍💻 Author
-
-Developed as a full end-to-end Machine Learning project focusing on real-world trend prediction, feature engineering, model evaluation, and deployment.
-
----
-
 ⭐ If you found this project interesting, feel free to connect or discuss improvements.
